@@ -9,9 +9,9 @@ address = input('Enter location')
 serviceurl = 'http://python-data.dr-chuck.net/geojson?'
 
 serviceurl = serviceurl + urllib.parse.urlencode({
-												'sensor': 'false',
-												'address': address
-											})
+						'sensor': 'false',
+						'address': address
+						})
 
 source_code = urllib.request.urlopen(serviceurl).read()
 js = json.loads(source_code)
