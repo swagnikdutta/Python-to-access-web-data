@@ -6,3 +6,6 @@ https://www.coursera.org/learn/python-network-data/home/welcome
 Week 2: Regular Expressions <br />
 Week 3: Using sockets and urllib <br />
 Week 4: Working with BeautifulSoup <br />
+Week 5: Web Services and XML <br />
+Week 6: JSON and the REST Architecture <br />
+
